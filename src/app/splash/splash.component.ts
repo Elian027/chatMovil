@@ -13,7 +13,7 @@ export class SplashComponent implements OnInit {
   ngOnInit() {
     
     setTimeout(() => {
-      this.router.navigate(['/home']); // Reemplaza 'home' con la ruta de tu página principal
+      this.router.navigate(['/home']);
     }, 3000);
   }
 }
